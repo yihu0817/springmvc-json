@@ -1,4 +1,4 @@
-package com.warmtel.springmvc.json01.controller;
+package com.warmtel.springmvc.shiro.action;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.warmtel.springmvc.json01.model.Employee;
-import com.warmtel.springmvc.json01.model.Message;
+import com.warmtel.springmvc.shiro.model.Employee;
+import com.warmtel.springmvc.shiro.model.Message;
 
 @Controller
 public class EmpoyeeController {

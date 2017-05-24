@@ -18,7 +18,7 @@
 	<!-- 开启注解 -->
 	<mvc:annotation-driven />
 	
-	<context:component-scan base-package="com.warmtel.springmvc.json01.controller" >
+	<context:component-scan base-package="com.warmtel.springmvc.shiro.action" >
 		<!-- 只扫描base-package指定包下@Controller注解-->
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan> 

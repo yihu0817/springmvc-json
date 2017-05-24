@@ -1,4 +1,4 @@
-package com.warmtel.springmvc.json01.model;
+package com.warmtel.springmvc.shiro.model;
 
 public class Employee {
 	private int id;
